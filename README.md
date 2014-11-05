@@ -31,12 +31,12 @@ After Capstone is installed, ROPgadget can be used as a standalone tool:
 Or installed into the Python site-packages library, and executed from $PATH.
 
     $ python setup.py install
-    $ ropgadget
+    $ ROPgadget
 
 Or installed from PyPi
 
     $ pip install ropgadget
-    $ ropgadget
+    $ ROPgadget
 
 Usage
 -----
@@ -70,6 +70,8 @@ Usage
       --norop              Disable ROP search engine
       --nojop              Disable JOP search engine
       --nosys              Disable SYS search engine
+      --multibr            Enable multiple branch gadgets
+      --all                Disables the removal of duplicate gadgets
 
 
 How can I contribute ?
