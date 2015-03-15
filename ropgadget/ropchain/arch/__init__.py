@@ -1,10 +1,10 @@
 #!/usr/bin/env python2
 ## -*- coding: utf-8 -*-
 ##
-##  Jonathan Salwan - 2014-05-12 - ROPgadget tool
+##  Jonathan Salwan - 2014-05-13
 ##
+##  http://shell-storm.org
 ##  http://twitter.com/JonathanSalwan
-##  http://shell-storm.org/project/ROPgadget/
 ##
 ##  This program is free software: you can redistribute it and/or modify
 ##  it under the terms of the GNU General Public License as published by
@@ -12,6 +12,5 @@
 ##  (at your option) any later version.
 ##
 
-import ropgadget
-
-ropgadget.main()
+import ropmakerx86
+import ropmakerx64
