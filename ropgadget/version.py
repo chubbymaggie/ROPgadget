@@ -1,4 +1,3 @@
-#!/usr/bin/env python2
 ## -*- coding: utf-8 -*-
 ##
 ##  Jonathan Salwan - 2014-05-12 - ROPgadget tool
@@ -12,6 +11,6 @@
 ##  (at your option) any later version.
 
 MAJOR_VERSION       = 5
-MINOR_VERSION       = 3
+MINOR_VERSION       = 4
 PYROPGADGET_VERSION = "ROPgadget v%d.%d" %(MAJOR_VERSION, MINOR_VERSION)
 
