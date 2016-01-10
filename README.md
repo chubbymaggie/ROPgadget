@@ -10,7 +10,7 @@ be found in the Archives directory but it will not be maintained.
 Install
 -------
 
-If you want to use ROPgadget, you have to install [Capstone](www.capstone-engine.org) first.
+If you want to use ROPgadget, you have to install [Capstone](http://www.capstone-engine.org/) first.
 
 For the Capstone's installation on nix machine:
 
@@ -67,6 +67,7 @@ Usage
       --nosys              Disable SYS search engine
       --multibr            Enable multiple branch gadgets
       --all                Disables the removal of duplicate gadgets
+      --dump               Outputs the gadget bytes
 
 
 How can I contribute ?
